@@ -1,4 +1,4 @@
-const xmlURL = 'sitemap.xml';
+const xmlURL = 'sitemap-news.xml';
 function buscarXML() {
     fetch(xmlURL)
         .then(Response => Response.text())
